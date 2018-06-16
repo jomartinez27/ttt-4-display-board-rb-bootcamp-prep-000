@@ -183,7 +183,7 @@ describe "#display_board in 'lib/display_board.rb" do
       # Hint: You should be able to copy the code in the previous it example
       # and make a few simple edits to convert the previous example to this
       # example's situation.
-      expect(rows[0]).to eq(" X | X | X ")
+      expect(rows[0]).to eq(" 1 | X | X ")
       expect(rows[1]).to eq("-----------")
       expect(rows[2]).to eq(" X | X | X ")
       expect(rows[3]).to eq("-----------")
